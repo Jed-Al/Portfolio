@@ -1,0 +1,20 @@
+.skill-card{
+    height: 130px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 80, 80);
+    color: aliceblue;
+    margin: 30px;
+}
+
+.skill-heading{
+    color: blueviolet;
+}
+
+.skill-1{
+    display: flex;
+    flex-direction: row;
+}
