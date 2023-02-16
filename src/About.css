@@ -1,0 +1,44 @@
+.about-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    background-color: rgb(255, 228, 196);
+    height: 400px;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.about-image{
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.desc{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 16px;
+    border-color: rgb(32, 34, 35);
+    background-color: rgb(249, 214, 172);
+}
