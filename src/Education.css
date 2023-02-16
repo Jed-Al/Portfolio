@@ -1,0 +1,28 @@
+.education-card{
+    display: flex;
+    flex-direction: row;
+    width : 1200px;
+    height: 170px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.education-heading{
+    color :bisque;
+    margin-bottom: 20px;
+}
+
+.school-image{
+    border-radius: 16px;
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left :190px;
+    justify-content: space-between;
+}
