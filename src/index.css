@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#about{
+  margin-top:200px;
+  text-align: center;
+}
+
+#home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top:130px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 80px;
+  color: #9575CD;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  margin-top:500px;
+  border: 6px double rgb(134, 63, 155);
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+#education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:500px;
+  border: 6px double #9575CD;
+  text-align: center;
+  padding: 80px;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:500px;
+  color: aliceblue;
+  border: 6px double cornflowerblue;
+  text-align: center;
+  padding: 80px;
+}

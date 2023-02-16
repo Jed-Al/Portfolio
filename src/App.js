@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import HomePage from "./HomePage";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="nav-bar">
+        <AnchorLink href="#home"><button className="nav-button">Home</button></AnchorLink>
+        <AnchorLink href="#about"><button className="nav-button">About</button></AnchorLink>
+        <AnchorLink href="#skills"><button className="nav-button">Skills</button></AnchorLink>
+        <AnchorLink href="#education"><button className="nav-button">Education</button></AnchorLink>
+        <AnchorLink href="#contact"><button className="nav-button">Contact</button></AnchorLink>
+      </div>
+      <HomePage />
     </div>
   );
 }
