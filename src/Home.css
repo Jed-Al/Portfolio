@@ -1,0 +1,21 @@
+.image{
+    border-radius: 80px;
+    margin-right: 40px;
+    margin-left : 40px
+}
+
+.github{
+    border-radius: 48px;
+    border: white;
+}
+
+.linkedin{
+    border-radius: 49px;
+}
+
+.home-info{
+    display : flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
