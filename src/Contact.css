@@ -1,0 +1,20 @@
+.contact-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width : 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+}
+
+.contact-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width : 300px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+}
